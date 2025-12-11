@@ -2,100 +2,124 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="test.css">
+  
 </head>
 <body>
-  <div class="wrap">
-    <h2>見学ご予約フォーム</h2>
-    <ul>
-      <li>見学の種類</li>
-      <lable><input type="radio">施設へ来場見学</lable>
-      <lable><input type="radio">オンライン見学</lable>
-      
 
-      <li>希望の施設</li>
-      <select>
+<div class="wrap">
+  <h2>見学ご予約フォーム</h2>
+
+  <form>
+    <ul>
+
+      <li>
+        <strong>趣味</strong><br>
+        <label><input type="checkbox"> ゲーム</label>
+        <label><input type="checkbox"> 読書</label>
+        <label><input type="checkbox"> 映画</label>
+      </li>
+
+      <li>
+        <strong>見学の種類</strong><br>
+        <label><input type="radio" name="visit"> 施設へ来場見学</label>
+        <label><input type="radio" name="visit"> オンライン見学</label>
+      </li>
+
+      <li>
+        <strong>希望の施設</strong><br>
+        <select>
           <option>一つ選択してください</option>
           <option>博多展示場</option>
           <option>長崎展示場</option>
           <option>熊本展示場</option>
-      </select>
-      
-      <li>見学の希望日</li>
-      <select>
-        <option >0</option>
-        <option >2023</option>
-        <option >2024</option>
-        <option >2025</option>
-      </select>
+        </select>
+      </li>
 
-      <select>
-        <option >0</option>
-        <option >1</option>
-        <option >2</option>
-        <option >3</option>
-        <option >4</option>
-        <option >5</option>
-        <option >6</option>
-        <option >7</option>
-        <option >8</option>
-        <option >9</option>
-        <option >10</option>
-        <option >11</option>
-        <option >12</option>
-      </select>
+      <li>
+        <strong>見学の希望日</strong><br>
+        <select>
+          <option>年</option>
+          <option>2023</option>
+          <option>2024</option>
+          <option>2025</option>
+        </select>
 
-      <select>
-        <option >0</option>
-        <option >1</option>
-        <option >2</option>
-        <option >3</option>
-        <option >4</option>
-        <option >5</option>
-        <option >6</option>
-        <option >7</option>
-        <option >8</option>
-        <option >9</option>
-        <option >10</option>
-        <option >11</option>
-        <option >12</option>
-        <option >13</option>
-        <option >14</option>
-        <option >15</option>
-        <option >16</option>
-        <option >17</option>
-        <option >18</option>
-        <option >19</option>
-        <option >20</option>
-        <option >21</option>
-        <option >22</option>
-        <option >23</option>
-        <option >24</option>
-        <option >25</option>
-        <option >26</option>
-        <option >27</option>
-        <option >28</option>
-        <option >29</option>
-        <option >30</option>
-        <option >31</option>
-      </select>
+        <select>
+          <option>月</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
 
-      <li>見学入数</li>
-      <input type="text">
-        <lable>人</lable>
-      </input>
+        <select>
+          <option>日</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>27</option>
+          <option>28</option>
+          <option>29</option>
+          <option>30</option>
+          <option>31</option>
+        </select>
+      </li>
 
-      <li>代表者氏名</li>
-      <input type="text" placeholder="姓">
-      <input type="text" placeholder="名">
+      <li>
+        <strong>見学人数</strong><br>
+        <input type="number"> 人
+      </li>
 
-      <li>メールアドレス</li>
-      <input type="mail" placeholder="xxx@example.com">
+      <li>
+        <strong>代表者氏名</strong><br>
+        <input type="text" placeholder="姓">
+        <input type="text" placeholder="名">
+      </li>
+
+      <li>
+        <strong>メールアドレス</strong><br>
+        <input type="email" placeholder="xxx@example.com">
+      </li>
+
     </ul>
-    <button>登録</button>
-  </div>
+
+    <button type="submit">登録</button>
+  </form>
   
+</div>
+
 </body>
 </html>

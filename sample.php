@@ -12,13 +12,15 @@
         <input type="password" name="pass" id="">
         
         <input type="submit" value="gui">
-    </form>
 
+        
+    </form>
+    
     <?php
         $user = $_POST['user-id'];
         $password = $_POST['pass'];
-
+        
         echo $user."---" .$password."</br>";
-    ?>
+        ?>
 </body>
 </html>

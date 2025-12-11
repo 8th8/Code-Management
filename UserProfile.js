@@ -70,6 +70,6 @@ const avatarImg = document.getElementById('avatarImg');
 avatarInput.addEventListener('change', e => {
   const f = e.target.files[0];
   if (!f) return;
-  const url = URL.createObjectURL(f);
+  const url = URL.createObjecbbtURL(f); ;.  
   avatarImg.src = url;
 });
